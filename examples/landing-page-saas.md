@@ -1,113 +1,117 @@
-# Exemple : Landing Page SaaS
+# Exemple : Landing page SaaS avec MarketingPilot
 
-> Template de landing page pour produit SaaS B2B utilisant le framework AIDA.
-
----
-
-## Contexte
-
-**Produit :** ProspectPilot-lite  
-**Prix :** 49€ one-shot  
-**Cible :** Solos founders B2B early stage  
-**Job-to-be-Done :** Qualifier rapidement les prospects Reddit pour éviter de perdre du temps sur des leads froids
+Cet exemple montre comment chaîner plusieurs skills MarketingPilot pour produire une landing page complète.
 
 ---
 
-## Copy généré avec `/mktg-copywriting`
+## Contexte fictif
 
-### Hero Section
-
-**Headline :** Stop aux prospects Reddit qui ne convertissent jamais
-
-**Subheadline :** ProspectPilot qualifie automatiquement vos leads Reddit avec un score sur 10. Plus de temps perdu sur les profils froids.
-
-**CTA Principal :** Qualifier mes leads Reddit (49€)
+**Produit :** TaskFlow - SaaS de gestion de tâches pour solos entrepreneurs
+**Prix :** 19€/mois ou 190€/an
+**ICP :** solo entrepreneur freelance, 1-3 ans d'activité, débordé
 
 ---
 
-### Section Problème (PAS Framework)
+## Étape 1 : Pricing avec `/mktg-pricing-strategy`
 
-**Problem :** Vous scrollez Reddit 2h/jour pour trouver des prospects. 80% sont des tire-kickers ou des curieux sans budget.
+**Input :** "Je vends TaskFlow à 19€/mois. Mon concurrent direct est à 12€. Je ne sais pas si je dois baisser ou justifier mon prix."
 
-**Agitation :** Pendant que vous analysez manuellement 20 profils, votre concurrent automatise et contacte 200 prospects qualifiés.
-
-**Solution :** ProspectPilot scanne les profils Reddit et sort un score de qualification en 30 secondes. Vous ne contactez que les 7/10+.
-
----
-
-### Section Features → Benefits
-
-| Feature | Benefit | Job-to-be-Done |
-|---------|---------|----------------|
-| Score sur 10 | Évite les mauvais leads | "Je veux pas perdre mon temps" |
-| Scan automatique | 30x plus rapide | "J'ai pas le temps d'analyser" |
-| Critères B2B | Leads avec budget | "Je veux des prospects qui payent" |
+**Output attendu de la skill :**
+- Recommandation de tiers (Free / Pro 19€ / Team 49€)
+- Argumentaire pour ne pas baisser (anchoring)
+- 3 angles de positionnement value-based
 
 ---
 
-### Social Proof
+## Étape 2 : Hero copy avec `/mktg-copywriting`
 
-> "J'ai économisé 10h/semaine de prospection. Mon taux de réponse Reddit est passé de 8% à 23%."  
-> — Sarah, Founder @TechStartup
+**Input :** "Hero section pour TaskFlow. Audience solo entrepreneurs débordés. Bénéfice principal : retrouver 5h/semaine."
 
-**Métriques :**
-- 1,247 prospects qualifiés à ce jour
-- Utilisé par 89 solos founders
-- Score moyen de 7.3/10 sur les leads convertis
+**Output attendu :**
 
----
+```
+# Variante A - Bénéfice direct
 
-### Section Pricing (Good-Better-Best)
+Récupère 5h/semaine sans changer ta façon de bosser.
+TaskFlow capte tes tâches dans 30 outils différents et les regroupe en une seule liste claire.
 
-| Analyse manuelle | Outils génériques | **ProspectPilot** |
-|------------------|-------------------|-------------------|
-| 2h par lead | 30min par lead | **30sec par lead** |
-| Subjectif | Critères flous | **Score objectif** |
-| 0€ | 97€/mois | **49€ one-shot** |
+[Essayer 14 jours gratuit] [Voir une démo]
 
 ---
 
-### FAQ objections
+# Variante B - Pain-driven
 
-**"Ça marche vraiment sur Reddit ?"**  
-→ ProspectPilot analyse 14 critères spécifiques Reddit : historique posts, karma, activité business, mentions budget. Testé sur 10K+ profils.
+Tu jongles avec 7 outils. TaskFlow les unifie.
+Calendrier, emails, Slack, Notion, GitHub - tout converge dans une seule todo list, mise à jour en temps réel.
 
-**"49€ pour un script ?"**  
-→ 49€ = le prix de 2h de votre temps à 25€/h. ProspectPilot vous fait économiser 20h/mois minimum.
-
-**"Et si ça marche pas ?"**  
-→ Testé avec 30 jours satisfait ou remboursé. Moyenne actuelle : 7.3/10 sur les leads qualifiés.
+[Connecter mes outils en 2 min]
 
 ---
 
-### CTA Final
+# Variante C - Anti-positioning
 
-**Headline :** Prêt à qualifier vos prospects Reddit en 30 secondes ?
+Pas un Notion de plus.
+TaskFlow ne te demande pas de migrer. Il branche tes outils existants et te donne UNE seule liste de tâches qui compte.
 
-**Subheadline :** Téléchargez ProspectPilot, uploadez votre liste, obtenez vos scores.
-
-**CTA :** Acheter ProspectPilot (49€) → Gumroad
-
-**Rassurance :** Paiement sécurisé • Téléchargement immédiat • 30j satisfait ou remboursé
+[Tester gratuit, sans CB]
+```
 
 ---
 
-## Métriques de conversion attendues
+## Étape 3 : CRO sur la page complète avec `/mktg-page-cro`
 
-- **Taux de conversion :** 2-4% (benchmark SaaS B2B one-shot)
-- **Time on page :** 2min30+ (copy engageant)
-- **Scroll depth :** 75%+ jusqu'au pricing
-- **CTR CTA :** 15%+ sur le bouton principal
+**Input :** URL ou copie complète de la page actuelle
 
----
-
-## Tests A/B recommandés
-
-1. **Headline :** "Stop aux prospects Reddit qui ne convertissent jamais" vs "Qualifiez vos prospects Reddit en 30 secondes"
-2. **CTA :** "Qualifier mes leads" vs "Télécharger ProspectPilot" 
-3. **Social proof :** Témoignage vs métriques chiffrées
-4. **Pricing :** Tableau comparatif vs prix simple
+**Output attendu de la skill :**
+- Audit structuré (hiérarchie visuelle, friction, social proof, CTA)
+- 5 améliorations priorisées
+- Copy corrigé pour les 3 éléments les plus impactants
+- Tests A/B recommandés
 
 ---
 
-*Template généré avec MarketingPilot v1.0 - Adaptable à tout produit SaaS*
+## Étape 4 : Email post-signup avec `/mktg-email-seq`
+
+**Input :** "Séquence post inscription trial 14 jours. Objectif : conversion en payant à J14."
+
+**Output attendu :**
+- 5 emails (J0, J2, J5, J10, J13)
+- Chaque email avec sujet, corps, CTA
+- Métriques cibles (ouverture, clic, conversion trial→paid)
+
+---
+
+## Étape 5 : Lancement avec `/mktg-launch`
+
+**Input :** "Je lance TaskFlow sur Product Hunt dans 2 semaines. Plan complet."
+
+**Output attendu :**
+- Plan J-14 à J+7
+- Posts pré-écrits pour chaque canal (X, LinkedIn, Reddit, IH, PH)
+- Checklist équipe et trafic
+- Métriques de succès
+
+---
+
+## Bilan
+
+5 skills enchaînées produisent :
+- Pricing argumenté
+- 3 variantes de hero copy
+- Audit complet de la page
+- Séquence email de 5 messages
+- Plan de lancement multi-canal
+
+Temps estimé : 30-45 minutes en utilisant les skills.
+Sans skills (rédaction from scratch) : 1-2 jours minimum.
+
+---
+
+## Personnalisation
+
+Pour adapter cet exemple à votre produit, remplir `VIBECRAFT-CONTEXT.md` à la racine avec :
+- Votre ICP réel
+- Votre produit et son prix
+- Votre ton de marque
+
+Les skills s'adapteront automatiquement.
