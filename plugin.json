@@ -1,0 +1,79 @@
+{
+  "name": "MarketingPilot",
+  "version": "1.0.0",
+  "description": "Plugin Claude pour le marketing B2B solo founder. 13 skills couvrant le copywriting, la strategie de contenu, les reseaux sociaux, la concurrence, le lancement produit et les materiaux de vente. Contextualise par VIBECRAFT-CONTEXT.md.",
+  "author": "MehdiBuilds",
+  "license": "MIT",
+  "homepage": "https://github.com/MehdiBatExpert/MarketingPilot",
+  "target": "Solo founder B2B early stage, 0-15k MRR, francophone",
+  "skills": [
+    {
+      "name": "mktg-copywriting",
+      "file": "commands/mktg-copywriting/SKILL.md",
+      "description": "Rediger du copy persuasif B2B oriente conversion : landing pages, emails, posts, CTAs, value props"
+    },
+    {
+      "name": "mktg-content-strategy",
+      "file": "commands/mktg-content-strategy/SKILL.md",
+      "description": "Planifier la strategie de contenu : topic clusters, piliers editoriaux, calendrier, distribution"
+    },
+    {
+      "name": "mktg-social-content",
+      "file": "commands/mktg-social-content/SKILL.md",
+      "description": "Creer et planifier du contenu social media pour X et LinkedIn"
+    },
+    {
+      "name": "mktg-copy-editing",
+      "file": "commands/mktg-copy-editing/SKILL.md",
+      "description": "Editer et ameliorer du copy marketing existant pour le rendre plus percutant"
+    },
+    {
+      "name": "mktg-lead-magnets",
+      "file": "commands/mktg-lead-magnets/SKILL.md",
+      "description": "Planifier et creer des lead magnets a fort taux de conversion pour capturer des leads qualifies"
+    },
+    {
+      "name": "mktg-competitor-profiling",
+      "file": "commands/mktg-competitor-profiling/SKILL.md",
+      "description": "Profiler les concurrents depuis leurs URLs et produire une fiche de veille actionnable"
+    },
+    {
+      "name": "mktg-competitor-alternatives",
+      "file": "commands/mktg-competitor-alternatives/SKILL.md",
+      "description": "Creer des pages de comparaison pour le SEO et la conversion"
+    },
+    {
+      "name": "mktg-psychology",
+      "file": "commands/mktg-psychology/SKILL.md",
+      "description": "Appliquer les principes de psychologie marketing et behavioral science aux actions GTM"
+    },
+    {
+      "name": "mktg-churn-prevent",
+      "file": "commands/mktg-churn-prevent/SKILL.md",
+      "description": "Identifier les signaux de churn et construire des actions de retention ciblees"
+    },
+    {
+      "name": "mktg-pricing-strategy",
+      "file": "commands/mktg-pricing-strategy/SKILL.md",
+      "description": "Definir ou reviser la strategie de prix : positionnement, ancrage, freemium, upsell"
+    },
+    {
+      "name": "mktg-community",
+      "file": "commands/mktg-community/SKILL.md",
+      "description": "Construire et activer une strategie de marketing communautaire"
+    },
+    {
+      "name": "mktg-enablement",
+      "file": "commands/mktg-enablement/SKILL.md",
+      "description": "Generer des materiaux d'aide a la vente : one-pager 1 page et battle card concurrente 5 criteres"
+    },
+    {
+      "name": "mktg-launch",
+      "file": "commands/mktg-launch/SKILL.md",
+      "description": "Planifier un lancement produit J-7 a J+7 avec calendrier multicanal et CTA par jour"
+    }
+  ],
+  "context_file": "VIBECRAFT-CONTEXT.md",
+  "compatibility": ["Claude Code", "Claude.ai"],
+  "created": "2026-05-05"
+}
